@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F069B971BD57C0000058493 /* QAndA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F069B961BD57C0000058493 /* QAndA.swift */; settings = {ASSET_TAGS = (); }; };
 		C0A60D661BD556CE00EE7032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60D651BD556CE00EE7032 /* AppDelegate.swift */; };
 		C0A60D681BD556CE00EE7032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A60D671BD556CE00EE7032 /* ViewController.swift */; };
 		C0A60D6B1BD556CF00EE7032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A60D691BD556CF00EE7032 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F069B961BD57C0000058493 /* QAndA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QAndA.swift; path = ../QAndA.swift; sourceTree = "<group>"; };
 		C0A60D621BD556CE00EE7032 /* MillionaireApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MillionaireApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A60D651BD556CE00EE7032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A60D671BD556CE00EE7032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F069B981BD57C9900058493 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F069B961BD57C0000058493 /* QAndA.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		3F069B991BD57CAF00058493 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0A60D671BD556CE00EE7032 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		C0A60D591BD556CE00EE7032 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +115,9 @@
 		C0A60D641BD556CE00EE7032 /* MillionaireApp */ = {
 			isa = PBXGroup;
 			children = (
+				3F069B991BD57CAF00058493 /* Controllers */,
+				3F069B981BD57C9900058493 /* Model */,
 				C0A60D651BD556CE00EE7032 /* AppDelegate.swift */,
-				C0A60D671BD556CE00EE7032 /* ViewController.swift */,
 				C0A60D691BD556CF00EE7032 /* Main.storyboard */,
 				C0A60D6C1BD556CF00EE7032 /* Assets.xcassets */,
 				C0A60D6E1BD556CF00EE7032 /* LaunchScreen.storyboard */,
@@ -255,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F069B971BD57C0000058493 /* QAndA.swift in Sources */,
 				C0A60D681BD556CE00EE7032 /* ViewController.swift in Sources */,
 				C0A60D661BD556CE00EE7032 /* AppDelegate.swift in Sources */,
 			);
@@ -483,6 +503,7 @@
 				C0A60D8C1BD556CF00EE7032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0A60D8D1BD556CF00EE7032 /* Build configuration list for PBXNativeTarget "MillionaireAppTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +512,7 @@
 				C0A60D8F1BD556CF00EE7032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C0A60D901BD556CF00EE7032 /* Build configuration list for PBXNativeTarget "MillionaireAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +521,7 @@
 				C0A60D921BD556CF00EE7032 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
